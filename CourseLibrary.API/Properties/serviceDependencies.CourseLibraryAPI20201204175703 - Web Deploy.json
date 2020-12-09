@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/courselibrary-apidbserver-11111/databases/CourseLibrary.API_db",
+      "type": "mssql.azure",
+      "connectionId": "CourseLibraryConnectionString",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
